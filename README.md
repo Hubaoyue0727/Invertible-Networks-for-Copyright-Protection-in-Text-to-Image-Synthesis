@@ -1,5 +1,7 @@
 # Invertible-Networks-for-Copyright-Protection-in-Text-to-Image-Synthesis
 
+[Paper](https://openaccess.thecvf.com/content/ICCV2025/html/Hu_Who_Controls_the_Authorization_Invertible_Networks_for_Copyright_Protection_in_ICCV_2025_paper.html)
+
 ## Abstract
 To defend against personalized generation, a new form of infringement that is more concealed and destructive, the existing copyright protection methods is to add adversarial perturbations in images. However, these methods focus solely on countering illegal personalization, neglecting the requirement for legitimate personalization. Moreover, none of these methods are capable of directly verifying and tracing the copyright from adversarial examples. In response to these limitations, we propose a traceable and authorizable copyright traceability method that embeds the copyright watermark into images through a series of invertible compound coupling modules. 
 We introduce a novel information exchange mechanism for invertible neural network and design a contrastive learning-based optimization strategy tailored to address personalized infringement issues.
@@ -9,10 +11,12 @@ We introduce a novel information exchange mechanism for invertible neural networ
   <img src="./assets/fig.1-v18.jpg" width="50%">
 </p>
 
+<!--
 ## Method
 <p align="center">
   <img src="./assets/fig.2-v2.jpg" width="60%">
 </p>
+-->
 
 ## Environment Setup
 This project provides both `environment.yml` (Conda) and `requirements.txt` (pip).
@@ -48,9 +52,6 @@ python train.py \
     --copyrightpath "./data/copyright.png" \
     --T2Imodel "stabilityai/stable-diffusion-2-1"
 ```
-
-## License
-[MIT License:](https://github.com/LiAutoAD/LightVLA/blob/main/LICENSE)
 
 ## Acknowledgements
 This codebase incorporates components adapted from [Hinet](https://github.com/TomTomTommi/HiNet) project. 
