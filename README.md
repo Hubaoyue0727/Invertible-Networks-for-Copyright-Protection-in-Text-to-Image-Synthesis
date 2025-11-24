@@ -1,7 +1,11 @@
 # Invertible-Networks-for-Copyright-Protection-in-Text-to-Image-Synthesis
-Who Controls the Authorization? Invertible Networks for Copyright Protection in Text-to-Image Synthesis
+This repository contains the official implementation of our *ICCV 2025* paper: 
+**Who Controls the Authorization? Invertible Networks for Copyright Protection in Text-to-Image Synthesis**
+
+![Overview](./assets/fig.2-v2.jpg)
 
 ## Method
+![Method](./assets/fig.1-v18.jpg)
 
 ## Training Demo
 ``` python
