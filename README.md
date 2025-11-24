@@ -3,8 +3,15 @@ Who Controls the Authorization? Invertible Networks for Copyright Protection in 
 
 ## Method
 
+## Training Demo
+``` python
+python train.py \
+    --inputpath_all "./data/VGGFace2_demo"\
+    --copyrightpath "./data/copyright.png" \
+    --T2Imodel "stabilityai/stable-diffusion-2-1"
+```
 
-## Quick Start
+## Training
 
 ### Environment Setup
 This project provides both `environment.yml` (Conda) and `requirements.txt` (pip).
@@ -13,10 +20,12 @@ This project provides both `environment.yml` (Conda) and `requirements.txt` (pip
 ```bash
 conda env create -f environment.yml
 conda activate ldm_db
+```
 
 #### Option 2: pip
 ```bash
 pip install -r requirements.txt
+```
 
 ### Dataset Preparation
 Place your original images and watermark file in the following structure:
@@ -28,7 +37,8 @@ data/
 
 ### Training
 ```bash
-bash scripts/run_train.sh
+bash scripts/train.sh
+```
 
 ## BibTeX
 @inproceedings{hu2025controls,
