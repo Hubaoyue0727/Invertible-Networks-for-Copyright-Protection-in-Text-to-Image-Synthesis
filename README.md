@@ -29,11 +29,12 @@ pip install -r requirements.txt
 
 ### Dataset Preparation
 Place your original images and watermark file in the following structure:
-
-data/
+```
+data/ 
 │
 ├── Original/                  # Original images to be protected
 └── watermark.png              # Copyright watermark
+```
 
 ### Training
 ```bash
@@ -41,6 +42,7 @@ bash scripts/train.sh
 ```
 
 ## BibTeX
+```bibtex
 @inproceedings{hu2025controls,
   title={Who Controls the Authorization? Invertible Networks for Copyright Protection in Text-to-Image Synthesis},
   author={Hu, Baoyue and Wei, Yang and Xiao, Junhao and Huang, Wendong and Bi, Xiuli and Xiao, Bin},
@@ -48,3 +50,4 @@ bash scripts/train.sh
   pages={15832--15841},
   year={2025}
 }
+```
