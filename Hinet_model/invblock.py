@@ -32,22 +32,19 @@ class INV_block(nn.Module):
                   x.narrow(1, self.split_len1, self.split_len2))
 
         if not rev:
-
             t2 = self.f(x2)
             y1 = x1 + t2
-            w1 = self.new(y1)    # 修改
+            w1 = self.new(y1)  
             s1, t1 = self.r(y1), self.y(y1)
-            y2 = self.e(s1) * (w1 * x2) + t1    # 修改
-            # y2 = self.e(s1) * x2 + t1    # 修改
+            y2 = self.e(s1) * (w1 * x2) + t1  
 
         else:
-
             s1, t1 = self.r(x1), self.y(x1)
             w1 = self.new(x1)    # 修改
-            y2 = (x2 - t1) / self.e(s1) / w1    # 修改
-            # y2 = (x2 - t1) / self.e(s1)     # 修改
+            y2 = (x2 - t1) / self.e(s1) / w1   
             t2 = self.f(y2)
             y1 = (x1 - t2)
 
         return torch.cat((y1, y2), 1)
+
 
