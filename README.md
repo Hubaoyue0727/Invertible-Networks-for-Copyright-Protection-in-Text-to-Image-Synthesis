@@ -3,10 +3,10 @@
 ## Abstract
 To defend against personalized generation, a new form of infringement that is more concealed and destructive, the existing copyright protection methods is to add adversarial perturbations in images. However, these methods focus solely on countering illegal personalization, neglecting the requirement for legitimate personalization. Moreover, none of these methods are capable of directly verifying and tracing the copyright from adversarial examples. In response to these limitations, we propose a traceable and authorizable copyright traceability method that embeds the copyright watermark into images through a series of invertible compound coupling modules. 
 We introduce a novel information exchange mechanism for invertible neural network and design a contrastive learning-based optimization strategy tailored to address personalized infringement issues.
-\textbf{Our method effectively mitigates the malicious use of unauthorized personalized generation models} by inducing watermark-like artifacts and obscuring privacy details in generated images. \textbf{Additionally, it facilitates copyright traceability and supports authorized legitimate personalization, thereby offering broader practical applicability.} Experimental results demonstrate that our method can almost losslessly restore original image and extract copyright watermark, achieving FID exceeding 300 and causing visually noticeable artifacts in unauthorized personalized images. Furthermore, it exhibits consistent robustness against adversarial purification and text prompt modifications.
+**Our method effectively mitigates the malicious use of unauthorized personalized generation models** by inducing watermark-like artifacts and obscuring privacy details in generated images. **Additionally, it facilitates copyright traceability and supports authorized legitimate personalization, thereby offering broader practical applicability.** Experimental results demonstrate that our method can almost losslessly restore original image and extract copyright watermark, achieving FID exceeding 300 and causing visually noticeable artifacts in unauthorized personalized images. Furthermore, it exhibits consistent robustness against adversarial purification and text prompt modifications.
 
 <p align="center">
-  <img src="./assets/fig.1-v18.jpg" width="30%">
+  <img src="./assets/fig.1-v18.jpg" width="50%">
 </p>
 
 ## Method
