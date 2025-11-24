@@ -2,10 +2,15 @@
 This repository contains the official implementation of our *ICCV 2025* paper: 
 **Who Controls the Authorization? Invertible Networks for Copyright Protection in Text-to-Image Synthesis**
 
-![Overview](./assets/fig.2-v2.jpg)
+<p align="center">
+  <img src="./assets/fig.1-v18.jpg" width="60%">
+</p>
+
 
 ## Method
-![Method](./assets/fig.1-v18.jpg)
+<p align="center">
+  <img src="./assets/fig.2-v2.jpg" width="80%">
+</p>
 
 ## Training Demo
 ``` python
