@@ -3,13 +3,14 @@ This repository contains the official implementation of our *ICCV 2025* paper:
 **Who Controls the Authorization? Invertible Networks for Copyright Protection in Text-to-Image Synthesis**
 
 <p align="center">
-  <img src="./assets/fig.1-v18.jpg" width="60%">
+  <img src="./assets/fig.1-v18.jpg" width="30%">
 </p>
 
+This work presents a copyright protection strategy using invertible neural network (INN) to generate images that prevent unauthorized personalization, enable effective copyright tracking in case of misuse, and support authorized personalization.
 
 ## Method
 <p align="center">
-  <img src="./assets/fig.2-v2.jpg" width="80%">
+  <img src="./assets/fig.2-v2.jpg" width="60%">
 </p>
 
 ## Training Demo
